@@ -2,9 +2,9 @@ export default function Contact() {
   return (
     <section id="contact" className="py-20 px-6 bg-slate-900 text-white">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-8">聯絡我</h2>
+        <h2 className="text-4xl font-bold mb-8">Contact Me</h2>
         <p className="text-gray-300 mb-12 text-lg">
-          如果有任何機會或合作，歡迎聯絡我。
+          Feel free to reach out about any opportunities or collaborations.
         </p>
         <div className="flex flex-wrap gap-6 justify-center">
           <a

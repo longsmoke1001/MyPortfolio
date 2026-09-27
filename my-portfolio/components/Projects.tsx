@@ -2,7 +2,7 @@ const projects = [
   {
     title: 'Personal Notes App',
     description:
-      '一個全端個人筆記應用程式，包含 .NET Core API、React 前端同 Next.js 前端。支援 JWT 認證、CRUD、分頁等功能。',
+      'A full-stack personal notes application featuring a .NET Core API alongside React and Next.js front ends. Supports JWT authentication, CRUD operations, pagination, and more.',
     tech: ['React', 'Next.js', 'TypeScript', '.NET 8', 'EF Core', 'JWT', 'Tailwind CSS'],
     links: {
       github: 'https://github.com/longsmoke1001/DotNetRepo',
@@ -16,7 +16,7 @@ export default function Projects() {
     <section id="projects" className="py-20 px-6 bg-white">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold mb-12 text-center text-slate-800">
-          專案
+          Projects
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project) => (

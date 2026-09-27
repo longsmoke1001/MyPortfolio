@@ -30,7 +30,7 @@ export default function Skills() {
     <section id="skills" className="py-20 px-6 bg-gray-50">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold mb-12 text-center text-slate-800">
-          技術棧
+          Tech Stack
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
           {Object.entries(skills).map(([category, items]) => (

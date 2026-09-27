@@ -3,25 +3,26 @@ export default function About() {
     <section id="about" className="py-20 px-6 bg-white">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold mb-12 text-center text-slate-800">
-          關於我
+          About Me
         </h2>
         <div className="grid md:grid-cols-2 gap-12">
           <div>
             <h3 className="text-2xl font-semibold mb-4 text-slate-700">
-              背景
+              Background
             </h3>
             <p className="text-gray-600 leading-relaxed mb-4">
-              我係一位 Full-Stack Developer，擁有 HKUST 物理學學士學位，
-              而家喺 PolyU 攻讀資訊科技碩士。
+              I'm a Full-Stack Developer with a BSc in Physics from HKUST,
+              currently pursuing an MSc in Information Technology at PolyU.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              我專注於後端開發（.NET Core）同前端開發（React / Next.js），
-              並且熟悉雲端部署（Azure、GitHub Pages）。
+              I focus on backend development (.NET Core) and frontend
+              development (React / Next.js), and I'm familiar with cloud
+              deployment (Azure, GitHub Pages).
             </p>
           </div>
           <div>
             <h3 className="text-2xl font-semibold mb-4 text-slate-700">
-              學歷
+              Education
             </h3>
             <div className="space-y-4">
               <div>
@@ -37,7 +38,7 @@ export default function About() {
                   PolyU MScIT
                 </p>
                 <p className="text-gray-600 text-sm">
-                  在讀（2026-2029）
+                  In progress (2026-2029)
                 </p>
               </div>
             </div>

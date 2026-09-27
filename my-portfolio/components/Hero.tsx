@@ -16,13 +16,13 @@ export default function Hero() {
             href="#projects"
             className="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-lg transition"
           >
-            查看專案
+            View Projects
           </a>
           <a
             href="#contact"
             className="border border-white hover:bg-white hover:text-slate-900 px-6 py-3 rounded-lg transition"
           >
-            聯絡我
+            Contact Me
           </a>
         </div>
       </div>
