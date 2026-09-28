@@ -15,7 +15,7 @@ const projects = [
     description:
       'A 2D platformer game built with Unity. Players control a little knight, jumping and attacking through levels.',
     tech: ['Unity', 'C#', 'State Machine', 'Object Pooling'],
-    image: '/images/little-knight.png',
+    image: '/images/little-knight.jpg',
     links: {
       github: 'https://github.com/longsmoke1001/game-3-6.0',
       demo: 'https://longsmoke1001.itch.io/little-knight',
@@ -36,6 +36,13 @@ export default function Projects() {
               key={project.title}
               className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition"
             >
+              {project.image && (
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-auto object-cover"
+                />
+              )}
               <h3 className="text-2xl font-semibold mb-3 text-slate-800">
                 {project.title}
               </h3>

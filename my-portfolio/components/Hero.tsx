@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="my-8 flex items-center justify-center bg-gradient-to-br from-slate-900 to-slate-800 text-white">
+    <section className="py-8 flex items-center justify-center bg-linear-to-br from-slate-900 to-slate-800 text-white">
       <div className="text-center px-6">
         <h1 className="text-5xl md:text-7xl font-bold mb-4">
           Huang Long Yin, Leo
