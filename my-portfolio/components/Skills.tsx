@@ -27,7 +27,7 @@ const skills = {
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-20 px-6 bg-gray-50">
+    <section id="skills" className="py-20 px-6 bg-slate-50">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold mb-12 text-center text-slate-800">
           Tech Stack
@@ -42,9 +42,9 @@ export default function Skills() {
                 {items.map((skill) => (
                   <li
                     key={skill}
-                    className="text-gray-600 flex items-center"
+                    className="text-slate-600 flex items-center"
                   >
-                    <span className="w-2 h-2 bg-blue-500 rounded-full mr-3" />
+                    <span className="w-2 h-2 bg-slate-500 rounded-full mr-3" />
                     {skill}
                   </li>
                 ))}

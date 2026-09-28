@@ -10,11 +10,11 @@ export default function About() {
             <h3 className="text-2xl font-semibold mb-4 text-slate-700">
               Background
             </h3>
-            <p className="text-gray-600 leading-relaxed mb-4">
+            <p className="text-slate-600 leading-relaxed mb-4">
               I'm a Full-Stack Developer with a BSc in Physics from HKUST,
               currently pursuing an MSc in Information Technology at PolyU.
             </p>
-            <p className="text-gray-600 leading-relaxed">
+            <p className="text-slate-600 leading-relaxed">
               I focus on backend development (.NET Core) and frontend
               development (React / Next.js), and I'm familiar with cloud
               deployment (Azure, GitHub Pages).
@@ -29,7 +29,7 @@ export default function About() {
                 <p className="font-semibold text-slate-800">
                   HKUST BSc Physics
                 </p>
-                <p className="text-gray-600 text-sm">
+                <p className="text-slate-600 text-sm">
                   Second Class Honours Division I
                 </p>
               </div>
@@ -37,7 +37,7 @@ export default function About() {
                 <p className="font-semibold text-slate-800">
                   PolyU MScIT
                 </p>
-                <p className="text-gray-600 text-sm">
+                <p className="text-slate-600 text-sm">
                   In progress (2026-2029)
                 </p>
               </div>

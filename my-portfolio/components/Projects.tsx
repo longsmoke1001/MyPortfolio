@@ -5,10 +5,20 @@ const projects = [
       'A full-stack personal notes application featuring a .NET Core API alongside React and Next.js front ends. Supports JWT authentication, CRUD operations, pagination, and more.',
     tech: ['React', 'Next.js', 'TypeScript', '.NET 8', 'EF Core', 'JWT', 'Tailwind CSS'],
     image: '/images/notes-app.png',
-    links: {
-      github: 'https://github.com/longsmoke1001/DotNetRepo',
-      demo: 'https://longsmoke1001.github.io/nextjs-notes/',
-    },
+    links: [
+      {
+        label: 'Backend GitHub',
+        url: 'https://github.com/longsmoke1001/DotNetRepo'
+      },
+      {
+        label: 'Frontend GitHub',
+        url: 'https://github.com/longsmoke1001/nextjs-notes'
+      },
+      {
+        label: 'Demo',
+        url: 'https://longsmoke1001.github.io/nextjs-notes/'
+      }
+    ]
   },
   {
     title: 'Little Knight',
@@ -16,11 +26,17 @@ const projects = [
       'A 2D platformer game built with Unity. Players control a little knight, jumping and attacking through levels.',
     tech: ['Unity', 'C#', 'State Machine', 'Object Pooling'],
     image: '/images/little-knight.jpg',
-    links: {
-      github: 'https://github.com/longsmoke1001/game-3-6.0',
-      demo: 'https://longsmoke1001.itch.io/little-knight',
+    links: [
+      {
+        label: 'GitHub',
+        url: 'https://github.com/longsmoke1001/game-3-6.0'
+      },
+      {
+        label: 'Demo',
+        url: 'https://longsmoke1001.itch.io/little-knight'
+      }
+    ]
     },
-  },
 ];
 
 export default function Projects() {
@@ -34,7 +50,7 @@ export default function Projects() {
           {projects.map((project) => (
             <div
               key={project.title}
-              className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition"
+              className="border border-slate-200 rounded-lg p-6 hover:shadow-lg transition"
             >
               {project.image && (
                 <img
@@ -46,36 +62,31 @@ export default function Projects() {
               <h3 className="text-2xl font-semibold mb-3 text-slate-800">
                 {project.title}
               </h3>
-              <p className="text-gray-600 mb-4 leading-relaxed">
+              <p className="text-slate-600 mb-4 leading-relaxed">
                 {project.description}
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tech.map((t) => (
                   <span
                     key={t}
-                    className="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full"
+                    className="bg-slate-100 text-slate-700 text-sm px-3 py-1 rounded-full"
                   >
                     {t}
                   </span>
                 ))}
               </div>
               <div className="flex gap-4">
-                <a
-                  href={project.links.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-500 hover:text-blue-600 font-medium"
-                >
-                  GitHub →
-                </a>
-                <a
-                  href={project.links.demo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-500 hover:text-blue-600 font-medium"
-                >
-                  Demo →
-                </a>
+                {project.links.map((link) => (
+                  <a
+                    key={link.label}
+                    href={link.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-slate-700 hover:text-slate-900 font-medium"
+                  >
+                    {link.label} →
+                  </a>
+                ))}
               </div>
             </div>
           ))}
