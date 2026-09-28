@@ -4,6 +4,7 @@ const projects = [
     description:
       'A full-stack personal notes application featuring a .NET Core API alongside React and Next.js front ends. Supports JWT authentication, CRUD operations, pagination, and more.',
     tech: ['React', 'Next.js', 'TypeScript', '.NET 8', 'EF Core', 'JWT', 'Tailwind CSS'],
+    image: '/images/notes-app.png',
     links: {
       github: 'https://github.com/longsmoke1001/DotNetRepo',
       demo: 'https://longsmoke1001.github.io/nextjs-notes/',
@@ -14,6 +15,7 @@ const projects = [
     description:
       'A 2D platformer game built with Unity. Players control a little knight, jumping and attacking through levels.',
     tech: ['Unity', 'C#', 'State Machine', 'Object Pooling'],
+    image: '/images/little-knight.png',
     links: {
       github: 'https://github.com/longsmoke1001/game-3-6.0',
       demo: 'https://longsmoke1001.itch.io/little-knight',
