@@ -58,6 +58,8 @@ export default function Projects() {
                   src={project.image}
                   alt={project.title}
                   className="w-full h-auto object-cover"
+                  width={600}
+                  height={400}
                 />
               )}
               <h3 className="text-2xl font-semibold mb-3 text-slate-800">
