@@ -1,3 +1,4 @@
+import Image from 'next/image';
 const projects = [
   {
     title: 'Personal Notes App',
@@ -53,7 +54,7 @@ export default function Projects() {
               className="border border-slate-200 rounded-lg p-6 hover:shadow-lg transition"
             >
               {project.image && (
-                <img
+                <Image
                   src={project.image}
                   alt={project.title}
                   className="w-full h-auto object-cover"
