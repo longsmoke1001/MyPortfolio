@@ -6,7 +6,17 @@ const projects = [
     tech: ['React', 'Next.js', 'TypeScript', '.NET 8', 'EF Core', 'JWT', 'Tailwind CSS'],
     links: {
       github: 'https://github.com/longsmoke1001/DotNetRepo',
-      demo: 'https://longsmoke1001.github.io/DotNetRepo/',
+      demo: 'https://longsmoke1001.github.io/nextjs-notes/',
+    },
+  },
+  {
+    title: 'Little Knight',
+    description:
+      'A 2D platformer game built with Unity. Players control a little knight, jumping and attacking through levels.',
+    tech: ['Unity', 'C#', 'State Machine', 'Object Pooling'],
+    links: {
+      github: 'https://github.com/longsmoke1001/game-3-6.0',
+      demo: 'https://longsmoke1001.itch.io/little-knight',
     },
   },
 ];
