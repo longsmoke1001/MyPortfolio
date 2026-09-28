@@ -37,7 +37,7 @@ const projects = [
         url: 'https://longsmoke1001.itch.io/little-knight'
       }
     ]
-    },
+  },
 ];
 
 export default function Projects() {
@@ -55,7 +55,7 @@ export default function Projects() {
             >
               {project.image && (
                 <Image
-                  src={project.image}
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}${project.image}`}
                   alt={project.title}
                   className="w-full h-auto object-cover"
                   width={600}
