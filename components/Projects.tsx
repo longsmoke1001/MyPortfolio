@@ -55,7 +55,7 @@ export default function Projects() {
             >
               {project.image && (
                 <Image
-                  src={`${project.image}`}
+                  src={`MyPortfolio${project.image}`}
                   alt={project.title}
                   className="w-full h-auto object-cover"
                   width={600}
