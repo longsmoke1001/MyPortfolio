@@ -26,7 +26,7 @@ const projects = [
     description:
       'A 2D platformer game built with Unity. Players control a little knight, jumping and attacking through levels.',
     tech: ['Unity', 'C#', 'State Machine', 'Object Pooling'],
-    image: `${process.env.NODE_ENV === 'production' ? 'MyPortfolio' : ''}/images/little-knight.jpg`,
+    image: `/images/little-knight.jpg`,
     links: [
       {
         label: 'GitHub',
