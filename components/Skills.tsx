@@ -19,15 +19,14 @@ const skills = {
     'Git / GitHub',
     'GitHub Actions',
     'Azure App Service',
-    'Docker',
     'VS Code',
-    'Postman',
+    'Unity',
   ],
 };
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-20 px-6 bg-slate-50">
+    <section id="skills" className="py-20 px-6 bg-slate-100">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold mb-12 text-center text-slate-800">
           Tech Stack
