@@ -6,7 +6,7 @@ const projects = [
     description:
       'A full-stack personal notes application featuring a .NET Core API alongside React and Next.js front ends. Supports JWT authentication, CRUD operations, pagination, and more.',
     tech: ['React', 'Next.js', 'TypeScript', '.NET 8', 'EF Core', 'JWT', 'Tailwind CSS'],
-    image: `${prefix}/images/notes-app.png`,
+    image: `MyPrtfolio/images/notes-app.png`,
     links: [
       {
         label: 'Backend GitHub',
