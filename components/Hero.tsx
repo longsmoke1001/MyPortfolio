@@ -26,6 +26,11 @@ export default function Hero() {
           </a>
         </div>
       </div>
+        <img
+          src="images/avatar.jpg"
+          alt="Leo"
+          className="w-64 h-64 rounded-full mb-6 border-4 border-blue-500"
+        />
     </section>
   );
 }
