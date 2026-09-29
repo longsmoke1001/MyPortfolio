@@ -5,7 +5,7 @@ const projects = [
     description:
       'A full-stack personal notes application featuring a .NET Core API alongside React and Next.js front ends. Supports JWT authentication, CRUD operations, pagination, and more.',
     tech: ['React', 'Next.js', 'TypeScript', '.NET 8', 'EF Core', 'JWT', 'Tailwind CSS'],
-    image: `${process.env.NODE_ENV === 'production' && 'MyPortfolio'}/images/notes-app.png`,
+    image: `${process.env.NODE_ENV === 'production' ? 'MyPortfolio' : ''}/images/notes-app.png`,
     links: [
       {
         label: 'Backend GitHub',
@@ -26,7 +26,7 @@ const projects = [
     description:
       'A 2D platformer game built with Unity. Players control a little knight, jumping and attacking through levels.',
     tech: ['Unity', 'C#', 'State Machine', 'Object Pooling'],
-    image: `${process.env.NODE_ENV === 'production' && 'MyPortfolio'}/images/little-knight.jpg`,
+    image: `${process.env.NODE_ENV === 'production' ? 'MyPortfolio' : ''}/images/little-knight.jpg`,
     links: [
       {
         label: 'GitHub',
