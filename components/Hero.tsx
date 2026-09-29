@@ -1,7 +1,12 @@
 export default function Hero() {
   return (
-    <section className="py-8 flex items-center justify-center bg-linear-to-br from-slate-900 to-slate-800 text-white">
+    <section className="py-20 flex items-center justify-center bg-linear-to-br from-slate-900 to-slate-800 text-white">
       <div className="text-center px-6">
+        <img
+          src="images/avatar.jpg"
+          alt="Leo"
+          className="w-32 h-32 md:w-40 md:h-40 rounded-full mx-auto mb-6 border-4 border-blue-500 object-cover"
+        />
         <h1 className="text-5xl md:text-7xl font-bold mb-4 animate-fade-in">
           Huang Long Yin, Leo
         </h1>
@@ -26,11 +31,6 @@ export default function Hero() {
           </a>
         </div>
       </div>
-        <img
-          src="images/avatar.jpg"
-          alt="Leo"
-          className="w-64 h-64 rounded-full mb-6 border-4 border-blue-500"
-        />
     </section>
   );
 }
